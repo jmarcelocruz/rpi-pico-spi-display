@@ -1,0 +1,3 @@
+[submodule "external/startup"]
+	path = external/startup
+	url = https://github.com/jmarcelocruz/rpi-pico-startup.git
