@@ -1,3 +1,6 @@
 [submodule "external/startup"]
 	path = external/startup
 	url = https://github.com/jmarcelocruz/rpi-pico-startup.git
+[submodule "external/hardware-regs"]
+	path = external/hardware-regs
+	url = https://github.com/jmarcelocruz/rpi-pico-hardware-regs.git
