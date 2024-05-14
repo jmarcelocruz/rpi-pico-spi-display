@@ -1,7 +1,7 @@
 CFLAGS = -mcpu=cortex-m0plus -mthumb -ffreestanding -Iexternal/hardware-regs/include -Iinclude ${EXTRA_CFLAGS}
 LDFLAGS = -mcpu=cortex-m0plus -mthumb -nostdlib -Texternal/startup/rpi-pico.ld ${EXTRA_LDFLAGS}
 
-SOURCES = main.c environment.c display/display.c
+SOURCES = main.c environment.c display/display.c spi/spi.c
 OBJS = $(patsubst %c,%o,${SOURCES})
 
 firmware.elf: firmware-no-crc.elf
